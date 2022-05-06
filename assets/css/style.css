@@ -1,0 +1,183 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.principal{
+    
+    display: flex;
+    
+}
+
+.body{
+    margin-top: 0;
+}
+.contacto{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    height: 100vh;
+    border-right: 1em;
+    border-style: solid;
+    border-width: 0.5px;
+    color:#e8ebe4;
+   
+
+}
+
+.cabecera{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-bottom: 1em;
+    border-style: solid;
+    border-width: 0.5px;
+    color:#e8ebe4;
+}
+
+.maria{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.maria img{
+    width: 40%;
+    height: 70%;
+    border-radius: 2em;
+    
+}
+
+.maria_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    
+}
+
+.maria_texto h4{
+    color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+.maria_texto h5{
+    margin-top: 0;
+    color: #828485;
+}
+
+.boton_maria{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.boton_maria img{
+    width: 50%;
+    height: 50%;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+    
+}
+
+.fotos{
+    
+    border-top: 1em;
+    border-style: solid;
+    border-width: 0.5px;
+    color: #e8ebe4;
+    
+}
+
+.card_1{
+    border-top: 1em;
+    border-style: solid;
+    border-width: 0.5px;
+    color:#e8ebe4;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card_imagen{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+.card_imagen img{
+    width: 50%;
+    height: 70%;
+    border-radius: 2em;
+    border-bottom: 1em;
+    border-style: solid;
+    border-width: 0.5px;
+    color:#e8ebe4;
+    
+}
+
+.card_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 1em;
+    color: #828485;
+    width: 70%;
+}
+
+.card_texto h4{
+    margin-bottom: 0;
+}
+.card_texto h5{
+    margin-top: 0;
+}
+.card_1 p{
+    display: inline-block;
+    color: black;
+}
+
+.card_2 img{
+    width: 10%;
+    height: 10%;
+    border-radius: 2em;
+}
+.card_2 p{
+    display: inline-block;
+    color: black;
+}
+
+.chat{
+    color:black;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #e8ebe4;
+}
+
+.chat img{
+    width: 25%;
+    height:35%;
+}
+
+.chat h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.chat h5{
+    margin-top: 0;
+    font-size: 1rem;
+}
